@@ -1,0 +1,30 @@
+.comment-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-container:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.comment-image {
+    margin-right: 15px;
+}
+
+.comment-image > img {
+    border-radius: 50%;
+}
+
+.comment-text-box {
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: inline;
+}
+
+.comment-username {
+    font-size: 15px;
+    font-weight: bold;
+    color: #3e3e3e;
+    margin-right: 7px;
+}

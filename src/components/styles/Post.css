@@ -21,7 +21,7 @@
 .post-info-texts {
     display: flex;
     flex-direction: column;
-    margin-top: 7px;
+    margin-top: 3px;
 }
 
 .post-username {
